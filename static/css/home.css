@@ -1,0 +1,97 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+
+.logo h1 {
+    font-size: 24px;
+}
+
+
+
+.hero {
+    text-align: center;
+    /* padding: 100px 0; */
+    background: #003459;
+    color: white;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #555;
+}
+
+
+.about h2, .contact h2, .event h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.box-heading {
+    background: linear-gradient(45deg, #4e5e76, #81a2d1); /* Light blue gradient background for box-heading */
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-transform: uppercase;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 2px;
+    margin: 20px auto;
+    width: fit-content;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.centered-paragraph {
+    max-width: 1100px;
+    text-align: center;
+    padding: 15px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #fff;
+    margin: 0;
+    font-size: 25px;
+}
+
